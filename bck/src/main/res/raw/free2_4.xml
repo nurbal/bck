@@ -1,0 +1,51 @@
+<level>
+<!-- 
+	la première ligne done la largeur totale du niveau
+
+	. = sol au premier plan
+	- = sol (gameplay)
+	_ = sol en arrière plan
+	(la hauteur de sol la plus haute est prise en compte)
+	= = rail(+sol)
+	o = node
+	+ = node+sol
+	* = node+sol+rail
+	W = water level (un seul suffit)
+	B = boat(cargo)+water (au même niveau que l'eau)
+	b = boat(voilier)+water (au même niveau que l'eau)
+	# = Stone collumn(top)
+	@ = Node+stone collumn
+	
+	TODO (décoration):
+	l = lego premier plan (posé sur le sol en-dessous)
+	L = lego arrière plan (posé sur le sol en-dessous)
+	c = crayons de couleurs premier plan (posés sur le sol en-dessous)
+	C = crayons de couleurs arrière plan (posés sur le sol en-dessous)
+	S = station (gare) juste derrière les rails, au même niveau
+	d = bugdroid premier plan (posé sur le sol en-dessous)
+	D = bugdroid arrière plan (posé sur le sol en-dessous)
+ -->
+	<save filename="free2_4.xml"/>
+	
+	<line value="                                                                       n                        n                                          "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="==========+       *=+           *+               *+                   *+                       *+                               *=========="/>
+	<line value="           -     -   -         -  -             -  -                                                                                       "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="-------------------------------------------------------------------------------------------------------------------------------------------"/>
+
+
+</level>

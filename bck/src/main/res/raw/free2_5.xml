@@ -1,0 +1,37 @@
+<level>
+<!-- 
+	la première ligne done la largeur totale du niveau
+
+	S = stone collumn
+	T  =stone collumn+node
+	R = rail+sol (rail x à x+1) (le premier indique la hauteur des rails par défaut)
+	n = node
+	N = node+sol
+	O = node+sol+rail
+	G = ground level
+	i = island level
+	I = island + node
+	J = island + node + rail
+	K = island + rail
+	W = water level (un seul suffit)
+	B = boat (+W)
+	b = small boat (+W)
+ -->
+	<save filename="free2_5.xml"/>
+	<towermode goal="100"/>
+	
+	<line value="==========+       *=+           *+               *+                   *+                       *+                               *=========="/>
+	<line value="           -     -   -         -  -             -  -                                                                                       "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="                                                                                                                                           "/>
+	<line value="-------------------------------------------------------------------------------------------------------------------------------------------"/>
+
+
+
+</level>

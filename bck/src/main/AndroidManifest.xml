@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zerracsoft.bck"
+    android:versionCode="6"
+    android:versionName="1.10" android:installLocation="auto">
+
+    <uses-sdk android:targetSdkVersion="15"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    
+    <!--  following 3 lines are for tapjoy -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<!--  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> PLUS NECESSAIRE, FAIT PLUS HAUT (pour les screenshots, entre autres)-->
+
+    <application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:debuggable="false">
+        <activity android:name="GameActivity" android:label="@string/app_name" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar" android:configChanges="keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+
+    </application>
+
+</manifest>

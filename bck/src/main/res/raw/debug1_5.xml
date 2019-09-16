@@ -1,0 +1,44 @@
+<level>
+<!-- 
+	la première ligne done la largeur totale du niveau
+
+	. = sol au premier plan
+	- = sol (gameplay)
+	_ = sol en arrière plan
+	(la hauteur de sol la plus haute est prise en compte)
+	= = rail(+sol)
+	o = node
+	+ = node+sol
+	* = node+sol+rail
+	W = water level (un seul suffit)
+	B = boat(cargo)+water (au même niveau que l'eau)
+	b = boat(voilier)+water (au même niveau que l'eau)
+	# = Stone collumn(top)
+	@ = Node+stone collumn
+	
+	décorations:
+	l = lego premier plan (posé sur le sol en-dessous)
+	L = lego arrière plan (posé sur le sol en-dessous)
+	p = crayons de couleurs premier plan (posés sur le sol en-dessous)
+	P = crayons de couleurs arrière plan (posés sur le sol en-dessous)
+	S = station (gare) juste derrière les rails, au même niveau
+	c = bugdroid premier plan (posé sur le sol en-dessous)
+	C = bugdroid arrière plan (posé sur le sol en-dessous)
+ -->
+	<save filename="debug1_5.xml"/>
+	<towermode goal="22"/>
+		
+	<line value="________________ ______________________________________________"/>
+	<line value="_______________________________________________________________"/>
+		<line/>
+	<line value="-------+-----+-----+-----+-----+-----+-----+-----+-----+-------"/>
+	<line value="    S     c     C     lL     P    Pp      p"/>
+	<line value="          .                       . .                          "/>
+		<line/>
+	<line value="..............................................................."/>
+		<line/>
+	<line/>
+			
+
+
+</level>

@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        applicationId "com.zerracsoft.bck"
+        minSdkVersion 5
+        targetSdkVersion 15
+
+        ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+
+
+        ndk {
+            moduleName "BCK"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    externalNativeBuild {
+        ndkBuild {
+            path "src/main/jni/Android.mk"
+        }
+    }
+}
+
+
+

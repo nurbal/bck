@@ -1,0 +1,614 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From Lib3D:
+* .externalToolBuilders/
+* .externalToolBuilders/Native Builder.launch
+* .gitignore
+From bck:
+* .DS_Store
+* .externalToolBuilders/
+* .externalToolBuilders/BCK native builder.launch
+* .gitignore
+* art/
+* art/Small_Sydney_From_Ferry_Sydney_Bridge.jpg
+* art/Zerrac_logo.png
+* art/Zerrac_logo.xcf
+* art/bar.xcf
+* art/barre.png
+* art/big_logo_video.png
+* art/blue.jpg
+* art/button-1418.png
+* art/button-4266.png
+* art/button-6725.png
+* art/button-8103.png
+* art/button-9956.png
+* art/clouds.xcf
+* art/container_blue.jpg
+* art/container_gray.jpg
+* art/container_green.jpg
+* art/container_red.jpg
+* art/container_yellow.jpg
+* art/decor2.jpg
+* art/editor buttons.xcf
+* art/fcochez-2012-01-21/
+* art/fcochez-2012-01-21/arrow_left.png
+* art/fcochez-2012-01-21/arrow_right.png
+* art/fcochez-2012-01-21/bg.png
+* art/fcochez-2012-01-21/bt_main.png
+* art/fcochez-2012-01-21/level_bg.png
+* art/fcochez-2012-01-21/level_lock.png
+* art/fcochez-2012-01-21/level_unlock.png
+* art/fcochez-2012-01-21/lock.png
+* art/fcochez-2012-01-21/logo.png
+* art/fcochez-2012-01-21/logo_zerrac.xcf
+* art/fcochez-2012-01-21/mokup01.jpg
+* art/fcochez-2012-01-21/mokup02.jpg
+* art/fcochez-2012-01-21/unlock.png
+* art/fcochez/
+* art/fcochez/boat.jpg
+* art/fcochez/boat02.jpg
+* art/fcochez/for nurbo/
+* art/fcochez/for nurbo/LOGO.psd
+* art/fcochez/for nurbo/Zerrac_logo.png
+* art/fcochez/for nurbo/arrow_left.png
+* art/fcochez/for nurbo/arrow_right.png
+* art/fcochez/for nurbo/background.png
+* art/fcochez/for nurbo/bg.png
+* art/fcochez/for nurbo/bt_main.png
+* art/fcochez/for nurbo/contraintes.png
+* art/fcochez/for nurbo/free build.png
+* art/fcochez/for nurbo/free_build_64.png
+* art/fcochez/for nurbo/grass.jpg
+* art/fcochez/for nurbo/hand_close.png
+* art/fcochez/for nurbo/hand_open.png
+* art/fcochez/for nurbo/hand_touch.png
+* art/fcochez/for nurbo/icon/
+* art/fcochez/for nurbo/icon/36x36.png
+* art/fcochez/for nurbo/icon/48x48.png
+* art/fcochez/for nurbo/icon/72x72.png
+* art/fcochez/for nurbo/icon/96x96.png
+* art/fcochez/for nurbo/level_bg.png
+* art/fcochez/for nurbo/level_lock.png
+* art/fcochez/for nurbo/level_unlock.png
+* art/fcochez/for nurbo/lock.png
+* art/fcochez/for nurbo/logo.png
+* art/fcochez/for nurbo/logo2.psd
+* art/fcochez/for nurbo/loose.png
+* art/fcochez/for nurbo/mokup01.jpg
+* art/fcochez/for nurbo/mokup02.jpg
+* art/fcochez/for nurbo/mud.jpg
+* art/fcochez/for nurbo/next level.png
+* art/fcochez/for nurbo/no ads.png
+* art/fcochez/for nurbo/no_ads_64.png
+* art/fcochez/for nurbo/unlock.png
+* art/fcochez/for nurbo/win.png
+* art/fcochez/room/
+* art/fcochez/room/DAE/
+* art/fcochez/room/DAE/new/
+* art/fcochez/room/DAE/new/alpha.DAE
+* art/fcochez/room/DAE/new/alpha.tga
+* art/fcochez/room/DAE/new/no_light.DAE
+* art/fcochez/room/DAE/new/room.DAE
+* art/fcochez/room/DAE/new/room01.png
+* art/fcochez/room/DAE/room copie.DAE
+* art/fcochez/room/DAE/room.3d
+* art/fcochez/room/DAE/room.DAE
+* art/fcochez/room/DAE/room01.png
+* art/fcochez/room/Metal_Al.jpg
+* art/fcochez/room/Metal_St.jpg
+* art/fcochez/room/Transluc.jpg
+* art/fcochez/room/Wood_OSB.jpg
+* art/fcochez/room/blue.jpg
+* art/fcochez/room/boat_big.3ds
+* art/fcochez/room/boat_big.fbx
+* art/fcochez/room/boat_big/
+* art/fcochez/room/boat_big/Metal_Aluminum_Anodized.jpg
+* art/fcochez/room/boat_big/Metal_Steel_Textured_White.jpg
+* art/fcochez/room/boat_big/Translucent_Glass_Block_Dark.jpg
+* art/fcochez/room/boat_big/blue.jpg
+* art/fcochez/room/boat_big/container_blue.jpg
+* art/fcochez/room/boat_big/container_green.jpg
+* art/fcochez/room/boat_big/container_red.jpg
+* art/fcochez/room/boat_big/container_yellow.jpg
+* art/fcochez/room/cargo/
+* art/fcochez/room/cargo/boat.png
+* art/fcochez/room/cargo/cargo.3d
+* art/fcochez/room/cargo/cargo.DAE
+* art/fcochez/room/contai01.jpg
+* art/fcochez/room/contai02.jpg
+* art/fcochez/room/contai03.jpg
+* art/fcochez/room/containe.jpg
+* art/fcochez/room/cube/
+* art/fcochez/room/cube/Sans titre.txt
+* art/fcochez/room/cube/cube.3d
+* art/fcochez/room/cube/cube.DAE
+* art/fcochez/room/cube/cube.jpg
+* art/fcochez/room/cube/cube.png
+* art/fcochez/room/gare/
+* art/fcochez/room/gare/gare.DAE
+* art/fcochez/room/gare/gare.jpg
+* art/fcochez/room/gare/preview.jpg
+* art/fcochez/room/lego/
+* art/fcochez/room/lego/lego.DAE
+* art/fcochez/room/lego/lego.jpg
+* art/fcochez/room/lego/preview.jpg
+* art/fcochez/room/new/
+* art/fcochez/room/new/alpha.dae
+* art/fcochez/room/new/no_light.3d
+* art/fcochez/room/new/no_light.dae
+* art/fcochez/room/new/room.3d
+* art/fcochez/room/new/room.DAE
+* art/fcochez/room/new/room01.jpg
+* art/fcochez/room/new/room01.png
+* art/fcochez/room/new/room_alpha.3d
+* art/fcochez/room/new/room_alpha.png
+* art/fcochez/room/new/room_alpha.tga
+* art/fcochez/room/new/room_no_light.3d
+* art/fcochez/room/pen/
+* art/fcochez/room/pen/pen.DAE
+* art/fcochez/room/pen/pen.jpg
+* art/fcochez/room/pen/pen.psd
+* art/fcochez/room/pen/preview.jpg
+* art/fcochez/room/room.3ds
+* art/fcochez/room/room.dae
+* art/fcochez/room/room.fbx
+* art/fcochez/room/room.skp
+* art/fcochez/room/voilier/
+* art/fcochez/room/voilier/boat02.png
+* art/fcochez/room/voilier/voilier.3d
+* art/fcochez/room/voilier/voilier.DAE
+* art/fcochez/screenshots/
+* art/fcochez/screenshots/angles limites/
+* art/fcochez/screenshots/angles limites/device-2012-01-31-001306.png
+* art/fcochez/screenshots/angles limites/device-2012-01-31-001320.png
+* art/fcochez/screenshots/angles limites/device-2012-01-31-001344.png
+* art/fcochez/screenshots/angles limites/device-2012-01-31-001400.png
+* art/fcochez/screenshots/angles limites/device-2012-01-31-001421.png
+* art/fcochez/screenshots/device-2011-12-13-204729.png
+* art/fcochez/screenshots/device-2011-12-13-204744.png
+* art/fcochez/screenshots/device-2011-12-13-204804.png
+* art/fcochez/screenshots/device-2011-12-13-204827.png
+* art/fcochez/screenshots/device-2011-12-13-204839.png
+* art/fcochez/screenshots/device-2011-12-13-204903.png
+* art/fcochez/screenshots/device-2011-12-13-204942.png
+* art/fcochez/screenshots/device-2012-02-21-000454.png
+* art/fcochez/screenshots/device-2012-02-21-000526.png
+* art/fcochez/screenshots/device-2012-04-06-122659.png
+* art/fcochez/screenshots/device-2012-04-06-122718.png
+* art/fcochez/screenshots/device-2012-04-11-212941.png
+* art/fcochez/screenshots/device-2012-04-11-213028.png
+* art/fcochez/screenshots/device-2012-04-11-213304.png
+* art/fcochez/screenshots/device-2012-04-12-110944.png
+* art/fcochez/screenshots/device-2012-04-12-111014.png
+* art/fcochez/screenshots/device-2012-04-12-111100.png
+* art/fcochez/screenshots/device-2012-04-12-111124.png
+* art/fcochez/screenshots/device-2012-04-12-111221.png
+* art/fcochez/screenshots/device-2012-04-12-111453.png
+* art/fcochez/screenshots/device-2012-04-12-114312.png
+* art/fcochez/screenshots/device-2012-04-12-114329.png
+* art/fcochez/screenshots/device-2012-04-12-114340.png
+* art/fcochez/screenshots/new interface/
+* art/fcochez/screenshots/new interface/device-2012-02-05-170557.png
+* art/fcochez/screenshots/new interface/level choice.png
+* art/fcochez/screenshots/new interface/main menu.png
+* art/fcochez/screenshots/premier test room.jpg
+* art/fcochez/screenshots/update room.jpg
+* art/hash_green.xcf
+* art/hash_red.xcf
+* art/hashtemplate.xcf
+* art/jackbottomexpand.xcf
+* art/jackbottomretract.xcf
+* art/level_choice_left.xcf
+* art/level_choice_right.xcf
+* art/market/
+* art/market/Builder_20120420213109.jpg
+* art/market/Builder_20120420213122.jpg
+* art/market/Builder_20120420213132.jpg
+* art/market/Builder_20120420213203.jpg
+* art/market/Builder_20120420213224.jpg
+* art/market/Builder_20120420213311.jpg
+* art/market/Builder_20120420213335.jpg
+* art/market/Builder_20120420213348.jpg
+* art/market/Builder_20120420213422.jpg
+* art/market/Builder_20120420213430.jpg
+* art/market/Builder_20120420213504.jpg
+* art/market/Builder_20120420213545.jpg
+* art/market/Builder_20120420213554.jpg
+* art/market/Builder_20120420213616.jpg
+* art/market/Builder_20120420213624.jpg
+* art/market/big_banner.xcf
+* art/market/big_logo.png
+* art/market/big_logo.xcf
+* art/market/description.txt
+* art/market/device-2012-04-21-232238-480x320.png
+* art/market/device-2012-04-21-232238-800x480.png
+* art/market/device-2012-04-21-232238.png
+* art/market/device-2012-04-21-232725.png
+* art/market/device-2012-04-21-232820.png
+* art/market/device-2012-04-21-232820_480x320.png
+* art/market/device-2012-04-21-232901.png
+* art/market/device-2012-04-21-233040.png
+* art/market/device-2012-04-21-233132.png
+* art/market/device-2012-04-21-233243.png
+* art/market/device-2012-04-21-233354.png
+* art/market/device-2012-04-22-225617.png
+* art/market/device-2012-05-13-154925.png
+* art/market/final/
+* art/market/final/big_banner.jpg
+* art/market/final/big_logo.png
+* art/market/final/promo.jpg
+* art/market/final/screenshot1.jpg
+* art/market/final/screenshot2.jpg
+* art/market/final/screenshot3.jpg
+* art/market/final/screenshot4.jpg
+* art/market/final/screenshot5.jpg
+* art/market/final/screenshot6.jpg
+* art/market/promo.txt
+* art/market/promo.xcf
+* art/menu_choix_button.xcf
+* art/menu_choix_niveu.xcf
+* art/models/
+* art/models/boat_big.skp
+* art/models/gare.skp
+* art/models/room.skp
+* art/rails.xcf
+* art/select_cursor.xcf
+* art/separator.xcf
+* art/sounds/
+* art/sounds/120169__klankbeeld__steam-train-passing-slow-110507-26.wav
+* art/sounds/130672__klankbeeld__steam-whistle-06.wav
+* art/sounds/13797__sweetneo85__wilhelm.wav
+* art/sounds/17832__dynamicell__water-splash-objects-falling.aif
+* art/sounds/20060__freqman__whip.wav
+* art/sounds/32304__acclivity__shipsbell.wav
+* art/sounds/33206__herbertboland__crackingdrywood.wav
+* art/sounds/39413__gadzooks__steam2.wav
+* art/sounds/407__tictacshutup__click-1-off-click.wav
+* art/sounds/9922__heigh-hoo__steam-locomotive-close.aif
+* art/sounds/Cartoon Chipmunk.aif
+* art/sounds/Cartoon string break.aif
+* art/sounds/Children Aaaah.aif
+* art/sounds/Clock Wind Up.aif
+* art/sounds/Comedy Drum Fill.aif
+* art/sounds/Comedy Production.aif
+* art/sounds/Comedy Wap.aif
+* art/sounds/Comedy Wistle.aif
+* art/sounds/Crowd applause 01.aif
+* art/sounds/Crowd sound effect 02.aif
+* art/sounds/Door Air Lock Closing.aif
+* art/sounds/Ferry Fog Horn.aif
+* art/sounds/Hydraulics engaged.aif
+* art/sounds/Kids cheering.aif
+* art/sounds/Scuba Breathing.aif
+* art/sounds/Sitcom laughter 05.aif
+* art/sounds/Tape rewinding 1.aif
+* art/sounds/carousel.aif
+* art/sounds/sfx/
+* art/sounds/sfx/boat_big.aiff
+* art/sounds/sfx/boat_big.ogg
+* art/sounds/sfx/boat_small.aiff
+* art/sounds/sfx/boat_small.ogg
+* art/sounds/sfx/hydraulics.aiff
+* art/sounds/sfx/music_menu.ogg
+* art/sounds/sfx/sound_break01.aiff
+* art/sounds/sfx/sound_break01.ogg
+* art/sounds/sfx/sound_break02.aiff
+* art/sounds/sfx/sound_break02.ogg
+* art/sounds/sfx/sound_break03.aiff
+* art/sounds/sfx/sound_break03.ogg
+* art/sounds/sfx/sound_break04.aiff
+* art/sounds/sfx/sound_break04.ogg
+* art/sounds/sfx/sound_break05.aiff
+* art/sounds/sfx/sound_break05.ogg
+* art/sounds/sfx/sound_break06.aiff
+* art/sounds/sfx/sound_break06.ogg
+* art/sounds/sfx/sound_break07.aiff
+* art/sounds/sfx/sound_break07.ogg
+* art/sounds/sfx/sound_death.ogg
+* art/sounds/sfx/sound_hydraulics.ogg
+* art/sounds/sfx/sound_lock.ogg
+* art/sounds/sfx/sound_loose.aiff
+* art/sounds/sfx/sound_loose.ogg
+* art/sounds/sfx/sound_menu_select.ogg
+* art/sounds/sfx/sound_rewind.ogg
+* art/sounds/sfx/sound_splash01.ogg
+* art/sounds/sfx/sound_splash02.ogg
+* art/sounds/sfx/sound_splash03.ogg
+* art/sounds/sfx/sound_splash04.ogg
+* art/sounds/sfx/sound_train.ogg
+* art/sounds/sfx/sound_underwater.ogg
+* art/sounds/sfx/sound_win.ogg
+* art/sounds/sfx/underwater.aiff
+* art/suivi de prod.ods
+* art/tutos/
+* art/tutos/bars/
+* art/tutos/bars/device-2012-04-11-135910.png
+* art/tutos/bars/device-2012-04-11-140003.png
+* art/tutos/bars/device-2012-04-11-140015.png
+* art/tutos/bars/device-2012-04-11-140027.png
+* art/tutos/bars/device-2012-04-11-140035.png
+* art/tutos/bars/device-2012-04-11-140110.png
+* art/tutos/bars/device-2012-04-11-140120.png
+* art/tutos/bars/device-2012-04-11-140135.png
+* art/tutos/bars/device-2012-04-11-142051.png
+* art/tutos/bars/tuto_bars_1.jpg
+* art/tutos/bars/tuto_bars_1.xcf
+* art/tutos/bars/tuto_bars_2.jpg
+* art/tutos/bars/tuto_bars_2.xcf
+* art/tutos/bars/tuto_bars_3.jpg
+* art/tutos/bars/tuto_bars_3.xcf
+* art/tutos/bars/tuto_bars_4.jpg
+* art/tutos/bars/tuto_bars_4.xcf
+* art/tutos/bars/tuto_bars_5.jpg
+* art/tutos/bars/tuto_bars_5.xcf
+* art/tutos/bars/tuto_bars_6.jpg
+* art/tutos/bars/tuto_bars_6.xcf
+* art/tutos/bars/tuto_bars_7.jpg
+* art/tutos/bars/tuto_bars_7.xcf
+* art/tutos/bars/tuto_bars_8.jpg
+* art/tutos/bars/tuto_bars_8.xcf
+* art/tutos/basic.xcf
+* art/tutos/budget/
+* art/tutos/budget/device-2012-04-11-223148.png
+* art/tutos/budget/device-2012-04-11-234529.png
+* art/tutos/budget/tuto_budget.jpg
+* art/tutos/cables/
+* art/tutos/cables/device-2012-04-11-173942.png
+* art/tutos/cables/device-2012-04-11-174002.png
+* art/tutos/cables/device-2012-04-11-174012.png
+* art/tutos/cables/device-2012-04-11-174030.png
+* art/tutos/cables/device-2012-04-11-174046.png
+* art/tutos/cables/device-2012-04-11-174122.png
+* art/tutos/cables/tuto_cables1.jpg
+* art/tutos/cables/tuto_cables1.xcf
+* art/tutos/cables/tuto_cables2.jpg
+* art/tutos/cables/tuto_cables2.xcf
+* art/tutos/cables/tuto_cables3.jpg
+* art/tutos/cables/tuto_cables3.xcf
+* art/tutos/cables/tuto_cables4.jpg
+* art/tutos/cables/tuto_cables4.xcf
+* art/tutos/cables/tuto_cables5.jpg
+* art/tutos/cables/tuto_cables5.xcf
+* art/tutos/hand_hold.xcf
+* art/tutos/hand_move.xcf
+* art/tutos/hand_move_two_fingers.xcf
+* art/tutos/hand_pinch_in.xcf
+* art/tutos/hand_pinch_out.xcf
+* art/tutos/jacks/
+* art/tutos/jacks/device-2012-04-11-174415.png
+* art/tutos/jacks/device-2012-04-11-174504.png
+* art/tutos/jacks/device-2012-04-11-174537.png
+* art/tutos/jacks/device-2012-04-11-174559.png
+* art/tutos/jacks/device-2012-04-11-174621.png
+* art/tutos/jacks/device-2012-04-11-180446.png
+* art/tutos/jacks/device-2012-04-11-180500.png
+* art/tutos/jacks/device-2012-04-11-180513.png
+* art/tutos/jacks/device-2012-04-11-180520.png
+* art/tutos/jacks/device-2012-04-11-180548.png
+* art/tutos/jacks/tuto_jacks1.jpg
+* art/tutos/jacks/tuto_jacks10.jpg
+* art/tutos/jacks/tuto_jacks11.jpg
+* art/tutos/jacks/tuto_jacks12.jpg
+* art/tutos/jacks/tuto_jacks2.jpg
+* art/tutos/jacks/tuto_jacks3.jpg
+* art/tutos/jacks/tuto_jacks4.jpg
+* art/tutos/jacks/tuto_jacks5.jpg
+* art/tutos/jacks/tuto_jacks6.jpg
+* art/tutos/jacks/tuto_jacks7.jpg
+* art/tutos/jacks/tuto_jacks8.jpg
+* art/tutos/jacks/tuto_jacks9.jpg
+* art/tutos/move_node/
+* art/tutos/move_node/device-2012-04-11-140209.png
+* art/tutos/move_node/device-2012-04-11-140252.png
+* art/tutos/move_node/device-2012-04-11-140302.png
+* art/tutos/move_node/device-2012-04-11-140315.png
+* art/tutos/move_node/device-2012-04-11-140328.png
+* art/tutos/move_node/device-2012-04-11-140337.png
+* art/tutos/move_node/device-2012-04-11-140346.png
+* art/tutos/move_node/tuto_move_node1.jpg
+* art/tutos/move_node/tuto_move_node12.xcf
+* art/tutos/move_node/tuto_move_node2.jpg
+* art/tutos/move_node/tuto_move_node3.jpg
+* art/tutos/move_node/tuto_move_node34.xcf
+* art/tutos/move_node/tuto_move_node4.jpg
+* art/tutos/move_node/tuto_move_node5.jpg
+* art/tutos/move_node/tuto_move_node56.xcf
+* art/tutos/move_node/tuto_move_node6.jpg
+* art/tutos/move_node/tuto_move_node6.xcf
+* art/tutos/move_node/tuto_move_node7.jpg
+* art/tutos/move_node/tuto_move_node7.xcf
+* art/tutos/move_node/tuto_move_node8.jpg
+* art/tutos/move_node/tuto_move_node8.xcf
+* art/tutos/pan/
+* art/tutos/pan/1.xcf
+* art/tutos/pan/2.xcf
+* art/tutos/pan/3.xcf
+* art/tutos/pan/4.xcf
+* art/tutos/pan/device-2012-04-11-170353.png
+* art/tutos/pan/device-2012-04-11-171836.png
+* art/tutos/pan/tuto_pan1.jpg
+* art/tutos/pan/tuto_pan1.xcf
+* art/tutos/pan/tuto_pan2.jpg
+* art/tutos/pan/tuto_pan2.xcf
+* art/tutos/pan/tuto_pan3.jpg
+* art/tutos/pan/tuto_pan4.jpg
+* art/tutos/pan/tuto_pan5.jpg
+* art/tutos/pan/tuto_pan6.jpg
+* art/tutos/pan/tuto_pan7.jpg
+* art/tutos/popup/
+* art/tutos/popup/device-2012-04-11-173709.png
+* art/tutos/popup/device-2012-04-11-173729.png
+* art/tutos/popup/device-2012-04-11-173805.png
+* art/tutos/popup/device-2012-04-11-173811.png
+* art/tutos/popup/device-2012-04-11-173823.png
+* art/tutos/popup/tuto_popup1.jpg
+* art/tutos/popup/tuto_popup1.xcf
+* art/tutos/popup/tuto_popup2-3.xcf
+* art/tutos/popup/tuto_popup2.jpg
+* art/tutos/popup/tuto_popup3.jpg
+* art/tutos/popup/tuto_popup4.jpg
+* art/tutos/popup/tuto_popup4.xcf
+* art/tutos/popup/tuto_popup5-6-7.xcf
+* art/tutos/popup/tuto_popup5.jpg
+* art/tutos/popup/tuto_popup6.jpg
+* art/tutos/popup/tuto_popup7.jpg
+* art/tutos/popup/tuto_popup8.jpg
+* art/tutos/popup/tuto_popup8.xcf
+* art/tutos/tower/
+* art/tutos/tower/device-2012-04-11-223309.png
+* art/tutos/tower/device-2012-04-11-223351.png
+* art/tutos/tower/device-2012-04-11-223414.png
+* art/tutos/tower/tuto_tower1.jpg
+* art/tutos/tower/tuto_tower1.xcf
+* art/tutos/tower/tuto_tower2.jpg
+* art/tutos/tower/tuto_tower2.xcf
+* art/tutos/tower/tuto_tower3.jpg
+* art/tutos/tower/tuto_tower3.xcf
+* art/tutos/undo/
+* art/tutos/undo/device-2012-04-11-140500.png
+* art/tutos/undo/device-2012-04-11-140536.png
+* art/tutos/undo/device-2012-04-11-140548.png
+* art/tutos/undo/device-2012-04-11-140602.png
+* art/tutos/undo/device-2012-04-11-140623.png
+* art/tutos/undo/device-2012-04-11-140630.png
+* art/tutos/undo/device-2012-04-11-140650.png
+* art/tutos/undo/device-2012-04-11-140701.png
+* art/tutos/undo/device-2012-04-11-140722.png
+* art/tutos/undo/device-2012-04-11-140740.png
+* art/tutos/undo/device-2012-04-11-140753.png
+* art/tutos/undo/device-2012-04-11-140804.png
+* art/tutos/undo/tuto_undo1.jpg
+* art/tutos/undo/tuto_undo1.xcf
+* art/tutos/undo/tuto_undo10.jpg
+* art/tutos/undo/tuto_undo10.xcf
+* art/tutos/undo/tuto_undo11-12.xcf
+* art/tutos/undo/tuto_undo11.jpg
+* art/tutos/undo/tuto_undo12.jpg
+* art/tutos/undo/tuto_undo13-14.xcf
+* art/tutos/undo/tuto_undo13.jpg
+* art/tutos/undo/tuto_undo14.jpg
+* art/tutos/undo/tuto_undo15-16.xcf
+* art/tutos/undo/tuto_undo15.jpg
+* art/tutos/undo/tuto_undo16.jpg
+* art/tutos/undo/tuto_undo17.jpg
+* art/tutos/undo/tuto_undo17.xcf
+* art/tutos/undo/tuto_undo2-4.xcf
+* art/tutos/undo/tuto_undo2.jpg
+* art/tutos/undo/tuto_undo3.jpg
+* art/tutos/undo/tuto_undo3.xcf
+* art/tutos/undo/tuto_undo4.jpg
+* art/tutos/undo/tuto_undo5.jpg
+* art/tutos/undo/tuto_undo5.xcf
+* art/tutos/undo/tuto_undo6.jpg
+* art/tutos/undo/tuto_undo6.xcf
+* art/tutos/undo/tuto_undo7.jpg
+* art/tutos/undo/tuto_undo7.xcf
+* art/tutos/undo/tuto_undo8.jpg
+* art/tutos/undo/tuto_undo8.xcf
+* art/tutos/undo/tuto_undo9.jpg
+* art/tutos/undo/tuto_undo9.xcf
+* art/tutos/zoom/
+* art/tutos/zoom/1.xcf
+* art/tutos/zoom/2.xcf
+* art/tutos/zoom/device-2012-04-11-170239.png
+* art/tutos/zoom/device-2012-04-11-170337.png
+* art/tutos/zoom/tuto_zoom1-2-6-7.xcf
+* art/tutos/zoom/tuto_zoom1.jpg
+* art/tutos/zoom/tuto_zoom2.jpg
+* art/tutos/zoom/tuto_zoom3-4-5.xcf
+* art/tutos/zoom/tuto_zoom3.jpg
+* art/tutos/zoom/tuto_zoom4.jpg
+* art/tutos/zoom/tuto_zoom5.jpg
+* art/tutos/zoom/tuto_zoom6.jpg
+* art/tutos/zoom/tuto_zoom7.jpg
+* art/wheel_blue.xcf
+* art/wheel_green.xcf
+* art/wheel_magenta.xcf
+* art/wheel_neutral.xcf
+* art/wheel_red.xcf
+* art/wheel_yellow.xcf
+* art/wood_clair.xcf
+* art/wood_fonce.xcf
+* proguard-project.txt
+* releases/
+* releases/v1.0-1-20120422/
+* releases/v1.0-1-20120422/bck.apk
+* releases/v1.0-1-20120422/big_banner.jpg
+* releases/v1.0-1-20120422/big_logo.png
+* releases/v1.0-1-20120422/description.txt
+* releases/v1.0-1-20120422/promo.jpg
+* releases/v1.0-1-20120422/promo.txt
+* releases/v1.0-1-20120422/screenshot1.jpg
+* releases/v1.0-1-20120422/screenshot2.jpg
+* releases/v1.0-1-20120422/screenshot3.jpg
+* releases/v1.0-1-20120422/screenshot4.jpg
+* releases/v1.0-1-20120422/screenshot5.jpg
+* releases/v1.0-1-20120422/screenshot6.jpg
+* releases/v1.0-1-20120422/sign.sh
+* releases/v1.01-2-20120428/
+* releases/v1.01-2-20120428/bck.apk
+* releases/v1.01-2-20120428/sign.sh
+* releases/v1.02-3-20120506/
+* releases/v1.02-3-20120506/bck.apk
+* releases/v1.02-3-20120506/sign.sh
+* releases/v1.03-4-20120513/
+* releases/v1.03-4-20120513/bck.apk
+* releases/v1.03-4-20120513/sign.sh
+* releases/v1.04-5-20120520-not released/
+* releases/v1.04-5-20120520-not released/bck.apk
+* releases/v1.04-5-20120520-not released/sign.sh
+* releases/v1.05-6-20120526/
+* releases/v1.05-6-20120526/bck.apk
+* releases/v1.05-6-20120526/release notes FR.txt
+* releases/v1.05-6-20120526/release notes.txt
+* releases/v1.05-6-20120526/sign.sh
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In Lib3D:
+* AndroidManifest.xml => lib3D/src/main/AndroidManifest.xml
+* jni/ => lib3D/src/main/jni/
+* res/ => lib3D/src/main/res/
+* src/ => lib3D/src/main/java/
+In bck:
+* AndroidManifest.xml => bck/src/main/AndroidManifest.xml
+* jni/ => bck/src/main/jni/
+* res/ => bck/src/main/res/
+* src/ => bck/src/main/java/
+* src/.DS_Store => bck/src/main/resources/.DS_Store
+* src/com/.DS_Store => bck/src/main/resources/com/.DS_Store
+* src/com/zerracsoft/.DS_Store => bck/src/main/resources/com/zerracsoft/.DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
