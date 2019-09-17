@@ -1,6 +1,7 @@
 # Bridge Construction Kit 
 (Android bridge builder game)
 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/v5BGQ6Zp3J8/0.jpg)](http://www.youtube.com/watch?v=v5BGQ6Zp3J8 "Bridge Construction Kit")
 
 After several years of inactivity on this project, I decided to open its source and put it on GitHub.
 
