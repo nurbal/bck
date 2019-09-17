@@ -11,7 +11,7 @@
     <string name="main_menu_shop_old">Shop (%d Credits)</string>
     <string name="main_menu_earn_credits">Get free Credits</string>
     <string name="about_title">About Bridge Construction Kit...</string>
-    <string name="about_text">Build bridges and towers, and test them against train, boats, wind...\n\nYou are given a global budget for a world of 5 levels: if you are low on budget to complete a world, you\'ll have to modify previous levels to earn some extra bars and cables.\n\nDon\'t hesitate to rate this game if you like it!\n\nhttp://www.zerracsoft.com</string>
+    <string name="about_text">Build bridges and towers, and test them against train, boats, wind...\n\nYou are given a global budget for a world of 5 levels: if you are low on budget to complete a world, you\'ll have to modify previous levels to earn some extra bars and cables.\n\nDon\'t hesitate to rate this game if you like it!\n\nhttps://github.com/nurbal/bck</string>
     <string name="about_rate_us">Rate us!</string>
     <string name="menu_level_result_next_level">Next level</string>
     <string name="menu_level_result_back_to_editor">Back to editor</string>

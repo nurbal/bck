@@ -11,7 +11,7 @@
     <string name="main_menu_shop_old">Boutique (%d Crédits)</string>
     <string name="main_menu_earn_credits">Crédits gratuits</string>
     <string name="about_title">A propos de Bridge Construction Kit...</string>
-    <string name="about_text">Concevez des ponts et des tours, et testez leur solidité à l\'épreuve des trains, des bateaux et du vent...\n\nVous disposez d\'un vudget global pour chaque monde de 5 niveaux: si vous n\'avez plus assez de ressources pour finir un monde, vous devrez modifier les niveaux précédents pour économiser les barres et les câbles nécessaires.\n\nMerci de noter ce jeu si vous l\'appréciez!\n\nhttp://www.zerracsoft.com</string>
+    <string name="about_text">Concevez des ponts et des tours, et testez leur solidité à l\'épreuve des trains, des bateaux et du vent...\n\nVous disposez d\'un vudget global pour chaque monde de 5 niveaux: si vous n\'avez plus assez de ressources pour finir un monde, vous devrez modifier les niveaux précédents pour économiser les barres et les câbles nécessaires.\n\nMerci de noter ce jeu si vous l\'appréciez!\n\nhttps://github.com/nurbal/bck</string>
     <string name="about_rate_us">Notez-nous!</string>
     <string name="menu_level_result_next_level">Niveau suivant</string>
     <string name="menu_level_result_back_to_editor">Retour à l\'éditeur</string>

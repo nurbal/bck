@@ -1,0 +1,7 @@
+/.gradle/
+.DS_Store
+/.idea/
+/bck/src/main/resources/
+/bck/.cxx/
+/bck/release/
+/bck/build/
